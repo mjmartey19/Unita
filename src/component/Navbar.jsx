@@ -110,11 +110,11 @@ function Navbar() {
               <div className="py-4 px-4 md:flex hidden items-center gap-2 bg-tertiary rounded-md text-xs text-black-100 ">
                 <FaUser />
                 <div className="flex gap-1">
-                  <Link to="/sign-in" className="hover:text-black">
+                  <Link to="/my-account" className="hover:text-black">
                     Sign in
                   </Link>
                   <span>or</span>
-                  <Link to="/register" className="hover:text-black">
+                  <Link to="/my-account?register" className="hover:text-black">
                     Register
                   </Link>
                 </div>
